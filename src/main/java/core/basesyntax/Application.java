@@ -4,10 +4,12 @@ public class Application {
     public static void main(String[] args) {
         Lottery lottery = new Lottery();
 
-        System.out.println(lottery.getRandomBall());
-        System.out.println(lottery.getRandomBall());
-        System.out.println(lottery.getRandomBall());
+        for (int i = 0; i < 3; i++) {
 
-        // create three balls using class Lottery and print information about them in console
+            System.out.println(lottery.getRandomBall());
+
+            // create three balls using class Lottery and print information about them in console
+        }
     }
 }
+
